@@ -1,0 +1,201 @@
+html{display: block;}
+body{width: 100%;font-family: 'Montserrat', sans-serif;text-align: center;margin:0;}
+#header1{padding-top: 0rem;padding-bottom: 0rem;}
+h1{color:#81b214;}
+#title{background-color:#ffffff;}
+.top-conatiner{position:relative;height:200px;width:100%;margin:auto;}
+.div1{color: black;width:100%;height: 2.4375rem;margin:0 auto;text-align: left;padding-left: 15px;padding-right: 15px;}
+#login{margin: 0 auto;display: inline-block;right: 90%;margin-left: 1.5%;margin-top: 0.5%;color:#fd9300;text-decoration: none;}
+#login:hover{color: #ff4c68;}
+#fright{margin-right: 3%;display: inline-block;right: 90%;margin-left: 1.5%;margin-top: 0.5%;color:#fd9300;text-decoration: none;}
+#fright:hover{color:#ff4c68;}
+.logo-container{margin: 0;text-align: center;width: 25%;height:100%;display: inline-block;}
+.mainlogo{margin: 0;margin-top: 10px;margin-left: 1.5%;width:80%;height:80%;}
+.heading-container{margin: 0 auto;width: 50%;height: 50%;position: relative;bottom: 70%;text-align: center;}
+.heading{font-family: 'Montserrat', sans-serif;font-weight: 800;margin: 0 auto;text-align: center;color:#81b214;display: block;font-size: 3vw;}
+.quote-container{margin: 0 auto;position: relative;text-align: center;height: 40%;width: 25%;bottom: 90%;}
+.quote{font-family: 'Montserrat', sans-serif;font-weight: 600;margin: 0 auto;text-align: center;color:#ff4c68;display: block;font-size: 2vw;}
+#navi{padding:0;}
+.icon-navi{padding-right: 3px;}
+#mySidenav{top: 210px;position: absolute;}
+
+
+
+
+#myBtn {display: none;position: fixed;bottom: 20px;right: 30px;z-index: 99;font-size: 18px;border: none;outline: none;background-color:#fd9300;color: white;cursor: pointer;padding: 15px;border-radius: 4px;}
+  
+#myBtn:hover {background-color: #555;}
+
+/*testomonial section*/
+
+h2{font-family: "Montserrat-bold";font-size: 3rem;line-height: 1.5;}
+#testimonials{text-align: center;background-color:#eeeeee;}   
+.testamonial-image{margin:20px;height:30%;width:60%;}
+
+
+/* ITEM SECTION*/
+
+/*chili section */
+
+#chili{margin: 5px auto;width:90%;height:1000px;}
+.pp{text-align: center;font-family: "Montserrat";margin-top: 50px;margin-bottom: 0;color: grey;}    
+ #hh{text-align: center;font-family: "Montserrat-bold";font-size: 3rem;margin-bottom: 50px;color:#7ea04d;}
+.cart-bt{text-align: center;}
+.head-chili{text-align: center;}
+#prodimg{width:90%;height:90%;}
+.img-wrap{text-align: center;}
+.icon-heart{color:#ff4c68;}
+
+
+
+/********************* product list  **********************/
+.demo{padding:45px 0}
+.container{padding: 10px 10px;}
+.product-grid2{font-family:'Open Sans',sans-serif;position:relative;border: 1px solid #81b214; border-radius: 5px; margin-top: 20px;}
+.product-grid2 .product-image2{overflow:hidden;position:relative}
+.product-grid2 .product-image2 a{display:block}
+.product-grid2 .product-image2 img{width:100%;height:auto}
+.product-image2 .pic-1{opacity:1;transition:all .5s}
+.product-grid2:hover .product-image2 .pic-1{opacity:0}
+.product-image2 .pic-2{width:100%;height:100%;opacity:0;position:absolute;top:0;left:0;transition:all .5s}
+.product-grid2:hover .product-image2 .pic-2{opacity:1}
+.product-grid2 .social{padding:0;margin:0;position:absolute;bottom:50px;right:25px;z-index:1}
+.product-grid2 .social li{margin:0 0 10px;display:block;transform:translateX(100px);transition:all .5s}
+.product-grid2:hover .social li{transform:translateX(0)}
+.product-grid2:hover .social li:nth-child(2){transition-delay:.15s}
+.product-grid2:hover .social li:nth-child(3){transition-delay:.25s}
+.product-grid2 .social li a{color:#505050;background-color:#fd9300;font-size:17px;line-height:45px;text-align:center;height:45px;width:45px;border-radius:50%;display:block;transition:all .3s ease 0s}
+.product-grid2 .social li a:hover{color:#fff;background-color:#ff4c68;box-shadow:0 0 10px rgba(0,0,0,.5)}
+.product-grid2 .social li a:after,.product-grid2 .social li a:before{content:attr(data-tip);color:#fff;background-color:#000;font-size:12px;line-height:22px;border-radius:3px;padding:0 5px;white-space:nowrap;opacity:0;transform:translateX(-50%);position:absolute;left:50%;top:-30px}
+.product-grid2 .social li a:after{content:'';height:15px;width:15px;border-radius:0;transform:translateX(-50%) rotate(45deg);top:-22px;z-index:-1}
+.product-grid2 .social li a:hover:after,.product-grid2 .social li a:hover:before{opacity:1}
+.product-grid2 .add-to-cart{color:#fff;background-color:#404040;font-size:15px;text-align:center;width:100%;padding:10px 0;display:block;position:absolute;left:0;bottom:-100%;transition:all .3s}
+.product-grid2 .add-to-cart:hover{background-color:#ff4c68;text-decoration:none}
+.product-grid2:hover .add-to-cart{bottom:0}
+.product-grid2 .product-new-label{background-color:#ff4c68;color:#fff;font-size:17px;padding:5px 10px;position:absolute;right:0;top:0;transition:all .3s}
+.product-grid2:hover .product-new-label{opacity:0}
+.product-grid2 .product-content{padding:20px 10px;text-align:center}
+.product-grid2 .title{font-size:17px;margin:0 0 7px}
+.product-grid2 .title a{color:#303030}
+.product-grid2 .title a:hover{color:#ff4c68;}
+.product-grid2 .price{color:#303030;font-size:15px}
+
+    
+ /*spices section */
+
+#spices{margin: 5px auto;width:90%;height:3000px;}
+
+    
+  /*dry fruit section */
+
+#dry-fruit{margin: 5px auto;width:90%;height:1500px;}
+
+/*Masala Powder section */
+
+#masala-powder{margin: 5px auto;width:90%;height:500px;}    
+
+
+/*------------------------about us page----------------------------------------------------------------------------------*/
+
+#aboutus{margin:5px auto;width:90%;height:500px;}
+
+
+/*------------------------contact us page----------------------------------------------------------------------------------*/
+
+#contactus{margin:5px auto;width:90%;height:500px;}
+
+/*------------------------product detail page---------------------------------------------------------------------------------*/
+#product-container{margin:50px auto;width:90%;height:1000px;}
+
+.img-prod{width:100%;height:100%;}
+
+.prod-img{margin-top:20px;}
+
+.detail-prod{margin-top:20px;}
+
+.inner{padding: 1.5rem 3rem 2.5rem;border: 1px solid #81b214; border-radius: 5px;}
+
+.product-detail-info{font-size: 2.4rem;margin-top: 0.5rem;margin-bottom: 1.9rem;font-weight: 400;letter-spacing: 0;}
+
+.price-new{color:#fd9300;}
+
+.price-new{font-size:1.7rem;font-weight:600;}
+
+.option-container{max-height: 300px;overflow: auto;border: 2px solid #ebebeb;padding: 20px 20px 10px;margin: 10px 0 30px;background: #fff;border-radius: 5px;}
+
+.form-group {margin-bottom: 15px;}
+
+div.required .control-label:before {content: '* ';color: #F00;font-weight: bold;}
+
+.radio {position: relative;display: block;margin-top: 10px;margin-bottom: 10px;}
+
+.offerrate{color:red;}
+
+#qtycontainer{text-align: center;}
+
+#qtybtn{margin:0 20%;}
+
+#quantity{text-align: center;}
+
+#minbtn{color: #fff;background-color: #fd9300;border-color: #fd9300;}
+
+#minbtn:hover{background-color: #ff4c68;}
+
+#plusbtn{color: #fff;background-color: #fd9300;border-color: #fd9300;}
+
+#plusbtn:hover{background-color: #ff4c68;}
+
+#cartbtn{ color:#fff;background-color: #fd9300;border-color: #fd9300;}
+
+#cartbtn:hover{background-color: #ff4c68;}
+
+.addtocart{text-align: center;}
+
+@media(max-width:768px){
+
+    #fright{margin-top: 1.5%;}
+
+    #chili{
+        height:1500px;
+    }
+
+    #login{
+        margin-left: 0;
+        margin-top: 2%;
+    }
+
+    .heading{
+        font-size: 4vw;
+    }
+
+    #spices{
+        height:4000px;
+    }
+
+    #dry-fruit{
+        height: 2000px;
+
+    }
+
+    #product-container{
+        height: 1500px;
+    }
+
+    #qtybtn{margin:0 auto;}
+    
+
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav .asidenav {font-size: 18px;}
+  }
+
+@media(min-width:615px){
+    .product-grid2 .social{
+        bottom:50px;
+    }
+}
+
+.footerli{margin:0 20px;}
+.footer-icon{font-size: 2rem; color: #fff;}
